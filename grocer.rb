@@ -1,3 +1,6 @@
+def `consolidate_cart
+end
+
 # def consolidate_cart(cart)
 #   # code here
 #   consolidated = {}
