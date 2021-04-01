@@ -1,4 +1,4 @@
-def `consolidate_cart
+def consolidate_cart
 end
 
 # def consolidate_cart(cart)
