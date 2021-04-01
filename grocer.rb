@@ -16,22 +16,6 @@ def consolidate_cart(cart)
   new_cart
 end
 
-# def apply_coupons(cart, coupons)
-#   # code here
-#   applied = {}
-
-#   applied = Marshal.load(Marshal.dump(cart))
-#   applied.each do |key, value|
-#     if key == coupons[0][:item]
-#       applied[key][:count] = applied[key][:count] - coupons[0][:num]
-#     end
-#   end
-#       applied[coupons[0][:item] + ' W/COUPON'] = {:price =>
-#         coupons[0][:cost], :clearance => true, :count => 1}
-
-#   applied
-# end
-
 def apply_coupons(cart, coupons)
   # code here
   coupons.each do | coupon |
