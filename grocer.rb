@@ -34,7 +34,7 @@ def apply_coupons(cart, coupons)
         cart["#{item} W/COUPON"] = {
           :price => coupon[:cost],
           :clearance => cart[item][:clearance],
-          :count => coupon[:num]
+          :count => 1
         }
       end
     end
